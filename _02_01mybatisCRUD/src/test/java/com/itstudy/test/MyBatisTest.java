@@ -42,7 +42,7 @@ public class MyBatisTest {
     }    @Test
     public  void findAll() throws Exception {
         List<User> users = userDao.findAll();
-        for (User user : users) {
+        for (User user :  users) {
             System.out.println(user);
         }
     }
