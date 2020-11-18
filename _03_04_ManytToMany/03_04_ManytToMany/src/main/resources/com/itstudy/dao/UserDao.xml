@@ -10,7 +10,7 @@
         <result property="sex" column="sex"></result>
         <result property="address" column="address"></result>
         <result property="birthday" column="birthday"></result>
-        <collection property="roles" ofType="role">
+        <collection property="roles" ofType="role" >
             <id property="roleId" column="rid"></id>
             <result property="roleName" column="role_name"></result>
             <result property="roleDesc" column="role_desc"></result>
